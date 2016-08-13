@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andrescelis.thisis">
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".thisis" />
+        <activity android:name=".TAMESIS" />
+        <activity android:name=".JERICO" />
+        <activity android:name=".PINTADA" />
+        <activity android:name=".VALPARAISO" />
+        <activity android:name=".HACERV" />
+        <activity android:name=".INFOV" />
+        <activity android:name=".DESTINOSV" />
+        <activity android:name=".GALERIAV" />
+        <activity android:name=".FESTIVIDADESV" />
+        <activity android:name=".ALIADOSV" />
+        <activity android:name=".COMPARTEV" />
+        <activity android:name=".HACERT" />
+        <activity android:name=".INFOT" />
+        <activity android:name=".DESTINOST" />
+        <activity android:name=".GALERIAT" />
+        <activity android:name=".FESTIVIDADEST" />
+        <activity android:name=".ALIADOST" />
+        <activity android:name=".HACERJ" />
+        <activity android:name=".INFOJ" />
+        <activity android:name=".DESTINOSJ" />
+        <activity android:name=".GALERIAJ" />
+        <activity android:name=".FESTIVIDADESJ" />
+        <activity android:name=".ALIADOSJ" />
+        <activity android:name=".COMPARTEJ" />
+        <activity android:name=".HACERP" />
+        <activity android:name=".DESTINOSP" />
+        <activity android:name=".INFOP" />
+        <activity android:name=".FESTIVIDADESP" />
+        <activity android:name=".GALERIAP" />
+        <activity android:name=".ALIADOSP" />
+        <activity android:name=".COMPARTEP" />
+        <activity android:name=".COMPARTET"/>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

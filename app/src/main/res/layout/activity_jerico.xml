@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andrescelis.thisis.JERICO">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/hacerj"
+                android:background="@drawable/rsz_hacer" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/destinosj"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_destinos" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/galeriaj"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_galeria" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/festividadesj"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_boton_festividades" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/mapaj"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_boton_mapa" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/aliadosj"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_boton_aliados" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/infoj"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_boton_informacion_adicional" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/compartej"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rsz_comparte_tu_experiencia" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

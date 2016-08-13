@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andrescelis.thisis.thisis">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="480dp"
+                android:id="@+id/tamesis"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/tamesis" />
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="480dp"
+                android:id="@+id/pintada"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/pintada" />
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="480dp"
+                android:id="@+id/jerico"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/jerico" />
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="480dp"
+                android:id="@+id/valparaiso"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/valparaiso" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
