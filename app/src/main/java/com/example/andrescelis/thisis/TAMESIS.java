@@ -96,5 +96,17 @@ public class TAMESIS extends AppCompatActivity {
             }
         });
 //COMPARTE
+
+ //MAPA
+        Button mapav = (Button) findViewById(R.id.mapav);
+        assert mapav != null;
+        mapav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(TAMESIS.this, MAPA.class);
+                startActivity(i);
+            }
+        });
+//MAPA
     }
 }

@@ -97,5 +97,17 @@ public class JERICO extends AppCompatActivity {
             }
         });
 //COMPARTE
+
+//MAPA
+        Button mapav = (Button) findViewById(R.id.mapav);
+        assert mapav != null;
+        mapav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(JERICO.this, MAPA.class);
+                startActivity(i);
+            }
+        });
+//MAPA
     }
 }
