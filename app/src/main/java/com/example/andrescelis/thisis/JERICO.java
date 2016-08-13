@@ -99,7 +99,7 @@ public class JERICO extends AppCompatActivity {
 //COMPARTE
 
 //MAPA
-        Button mapav = (Button) findViewById(R.id.mapav);
+        Button mapav = (Button) findViewById(R.id.mapaj);
         assert mapav != null;
         mapav.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -99,7 +99,7 @@ public class PINTADA extends AppCompatActivity {
 //COMPARTE
 
 //MAPA
-        Button mapav = (Button) findViewById(R.id.mapav);
+        Button mapav = (Button) findViewById(R.id.mapap);
         assert mapav != null;
         mapav.setOnClickListener(new View.OnClickListener() {
             @Override
